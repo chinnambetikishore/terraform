@@ -7,3 +7,10 @@
 
 # tf variable file
 *.tfvars
+ 
+# ignore CLI configure files
+ .terraformrc
+ terraform.rc
+
+# ignore crash files
+crash.logs
